@@ -1,8 +1,79 @@
 img {
     height: 213px;
     width: 140px;
-}
-
-.content {
+    margin-left: 310px;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    background: linear-gradient(to bottom, #d9e5f0, #99cde2, #d9e5f0);
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .content {
     width: 690px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .inputs input, label {
+    width: 300px;
+  }
+  
+  .radios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  
+  .form-check-input {
+    margin-top: 10px;
+    margin-right: -140px;
+  }
+  
+  .custom-select select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+  }
+  
+  .custom-select label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    margin-top: 150px;
+    margin-left: 45%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #fff;
+  }
+
+  button:hover {
+    background: #99cde2;
+    transition: all 0.4s;
+  }
