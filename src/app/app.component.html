@@ -1,89 +1,104 @@
-<nav>
-  <img src="../assets/ggcgCimer.63f5e6457a9766.33434391.jpg" alt="img">
-</nav>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+    <img src="../assets/ggcgCimer.63f5e6457a9766.33434391.jpg" alt="img">
+  
 <div class="container">
+  <form action="">
   <div class="content">
     <h1>Ciszterci Gárdonyi Géza Gimnázium és Kollégium</h1>
     <h3>Beiratkozás</h3>
-    <p>Ha Ön több gyerekének szeretne időpontot foglalni,akkor minden gyerekéhez használjon különböző telefonszámot vagy hívja a titkárságot (+36/511 240).</p>
-    <hr>
-    <div class="inputs">
-    <label>Oktatási azonosító:</label>
-    <input type="text" name="" id="" placeholder="OKT. azonosító" required />
-    <label>Diák neve:</label>
-    <input type="text" name="" id="" placeholder="Diák neve" required />
-    <label>Regisztráló szülő neve:</label>
-    <input type="text" name="" id="" placeholder="Regisztráló szülő neve" required />
-    <label>Szülő mobilszáma:</label>
-    <input type="text" name="" id="" placeholder="Szülő mobilszáma" required /><br>
-    <label>Képzéstípus / Tagozat kód:</label><br>
-    
-      <div class="custom-select">
-        <label for="exampleSelect">Válassz egy elemet:</label>
+    <p>Ha Ön több gyermekének szeretne időpontot foglalni, akkor minden gyermekéhez használjon különböző telefonszámot vagy hívja a titkárságot ( +36/511-240 ).</p>
+    <hr class="hr1">
+    <form class="inputs" action="/" methhod="post">
+      <label name="oktazon"><strong>Oktatási azonosító:*</strong></label>
+      <input type="text" name="oktazon" id="oktazon" placeholder="OKT. azonosító" required />
+      <label name="diaknev"><strong>Diák neve:*</strong></label>
+      <input type="text" name="diaknev" id="diaknev" placeholder="Diák neve" required />
+      <label name="szulonev"><strong>Regisztráló szülő neve:*</strong></label>
+      <input type="text" name="szulonev" id="szulonev" placeholder="Regisztráló szülő neve" required />
+      <label name="szulomobil"><strong>Szülő mobilszáma:*</strong></label>
+      <input type="text" name="szulomobil" id="szulomobil" placeholder="Szülő mobilszáma (+3670/123-4567)" required/>
+    </form>
+      <br>
+    <label><strong>Képzéstípus / Tagozat kód:</strong></label><br>
+    <div class="custom-select">
+        <label for="exampleSelect">Válasszon egy tagozatot:</label>
         <select id="exampleSelect">
-          <option>Elem 1</option>
-          <option>Elem 2</option>
-          <option>Elem 3</option>
-          <option>Elem 4</option>
-          <option>Elem 5</option>
+          <option value="1">1. Angol-magyar két tanítási nyelvű gimnáziumi képzés(5 év) - 0011</option>
+          <option value="1">2. Angol nyelvi előkészítő évfolyammal bővített gimnáziumi képzés, humán specializáció (5 év) - 0012</option>
+          <option value="3">3. Általános gimnáziumi képzés, biológia-kémia specializáció (4 év) - 0013</option>
+          <option value="4">4. Általános gimnáziumi képzés (4 év) - 0014</option>
+          <option value="5">5. Általános gimnáziumi képzés, pszichológia specializáció (4 év) - 0031</option>
+          <option value="6">6. Sportiskolai képzés (köznevelési típusú sportiskolai képzés) (4 év) - 0015</option>
+          <option value="">7. Nyolcosztályos gimnáziumi képzés (8 év) - 0001</option>
         </select>
       </div>
 
-    <div class="radios">
-    <h1>Időpontfoglalás</h1>
-    <p>(2023 március 2. Csütörtök, 2023 március 3. péntek) Kérem jelölje be a kívánt időpontot</p>
-
+      <div class="radios">
+        <h1>Időpontfoglalás</h1>
+        <p><strong>(2023 március 2. csütörtök, 2023 március 3. péntek)</strong><br>Kérem jelölje be a kívánt időpontot/időpontokat:</p>
+      <div class="form-check">
+        <hr>
+        <label class="form-check-label-text">2023 március 3. Csütörtök:</label><br>
+        <hr>
+        <input  class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          14:00
+        </label>
+        </div>
     <div class="form-check">
-      <label class="form-check-label-text">2023 március 3. Csütörtök:</label><br>
-      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-      <label class="form-check-label" for="flexRadioDefault1">
-        14:00
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <input  class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
-        14:30
+       14:30
       </label>
+      </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         15:00
       </label>
+      </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         15:30
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         16:00
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         16:30
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         17:00
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         17:30
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         18:00
       </label>
     </div><br>
-
+    <hr class="hr2">
     <div class="form-check">
       <label class="form-check-label-text">2023 március 3. Péntek:</label><br>
+      <hr class="hr2">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
       <label class="form-check-label" for="flexRadioDefault1">
         14:00
@@ -94,43 +109,51 @@
       <label class="form-check-label" for="flexRadioDefault2">
         14:30
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         15:00
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         15:30
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         16:00
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         16:30
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         17:00
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         17:30
       </label>
+    </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
       <label class="form-check-label" for="flexRadioDefault2">
         18:00
       </label>
     </div>
-    <button type="button">Küldés</button>
-  </div>
+    <br>
+    <hr class="hr2">
+    <button type="submit">Küldés</button>
   </div>
 </div>

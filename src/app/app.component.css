@@ -1,12 +1,9 @@
 img {
-    height: 213px;
-    width: 140px;
-    margin-left: 310px;
+    height: 250px;
+    max-width: 100%;
+    margin-left: 40%;
+    margin-right: auto;
     margin-bottom: 15px;
-  }
-  
-  h1 {
-    text-align: center;
   }
   
   .container {
@@ -16,11 +13,10 @@ img {
   }
   
   .content {
-    width: 690px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    max-width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
   
   .inputs {
@@ -33,6 +29,9 @@ img {
   
   .inputs input, label {
     width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
   }
   
   .radios {
@@ -40,14 +39,13 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 80px;
   }
   
   .form-check-input {
-    margin-top: 10px;
-    margin-right: -140px;
+    margin-top: 15px;
   }
-  
+
   .custom-select select {
     width: 100%;
     padding: 8px;
@@ -55,16 +53,18 @@ img {
     border-radius: 4px;
     font-size: 16px;
     background-color: #f8f8f8;
+    margin-top: 8px;
+    cursor: pointer;
   }
   
   .custom-select label {
-    display: block;
+    display: flex;
     margin-bottom: 8px;
+    
   }
   
   button {
-    margin-top: 150px;
-    margin-left: 45%;
+    margin-top: 50px;
     font-size: 18px;
     border-radius: 5px;
     border: none;
@@ -75,5 +75,29 @@ img {
 
   button:hover {
     background: #99cde2;
+    font-weight: bold;
+    font-size: 20px;
     transition: all 0.4s;
+  }
+
+  hr {
+    height: 5px;
+    border-radius: 5px;
+  }
+
+  .hr1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .hr2 {
+    width: 202.66px;
+  }
+
+  .hr2v {
+    margin-top: 8px;
+  }
+
+  h1 {
+    text-align: center;
   }
